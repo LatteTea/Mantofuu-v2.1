@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "962683404936",
+    "firebase_url": "https://bgsteamproject-default-rtdb.firebaseio.com",
+    "project_id": "bgsteamproject",
+    "storage_bucket": "bgsteamproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962683404936:android:0205bd0f865bee8807553d",
+        "android_client_info": {
+          "package_name": "com.example.bgsteam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962683404936-2s12ienq91tjfq0bekg7o1lpnh9hsklb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtaNOj-63aZRC-mIIu1vXwU7_vBOBObb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962683404936-2s12ienq91tjfq0bekg7o1lpnh9hsklb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
