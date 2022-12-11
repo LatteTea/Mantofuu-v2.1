@@ -7,12 +7,14 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
@@ -36,6 +38,7 @@ fun FormLogin(){
     }
 
     Column(modifier = Modifier
+        .background(Color.White)
         .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
@@ -49,7 +52,7 @@ fun FormLogin(){
 
         Text(
             text = "Silahkan Login",
-            fontWeight = FontWeight.ExtraLight,
+            fontWeight = FontWeight.Normal,
             fontSize = 18.sp,
             modifier = Modifier.padding(bottom = 72.dp)
         )
